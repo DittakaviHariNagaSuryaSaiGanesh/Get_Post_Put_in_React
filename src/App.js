@@ -1,23 +1,29 @@
-import logo from './logo.svg';
+import PostList from './Components/PostList';
+import PostForm from './Components/PostForm';
+import PutTest from './Components/PutTest';
 import './App.css';
+import './Components/style.css'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className='card text-white bg-primary mb-3'>
+        <h1>This is GET Request</h1>
+      </div>
+
+      <PostList></PostList>
+
+      <div className='card text-white bg-primary mb-3 mt-5'>
+        <h1>This is POST Request</h1>
+      </div>
+
+      <PostForm></PostForm>
+
+      <div className='card text-white bg-primary mb-3 mt-5'>
+        <h1>This is PUT Request</h1>
+      </div>
+
+      <PutTest></PutTest>
     </div>
   );
 }
