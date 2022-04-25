@@ -1,6 +1,7 @@
 import PostList from './Components/PostList';
 import PostForm from './Components/PostForm';
 import PutTest from './Components/PutTest';
+import Delete from './Components/Delete';
 import './App.css';
 import './Components/style.css'
 
@@ -24,6 +25,12 @@ function App() {
       </div>
 
       <PutTest></PutTest>
+
+      <div className='card text-white bg-primary mb-3 mt-5'>
+        <h1>This is Delete Request</h1>
+      </div>
+
+      <Delete></Delete>
     </div>
   );
 }

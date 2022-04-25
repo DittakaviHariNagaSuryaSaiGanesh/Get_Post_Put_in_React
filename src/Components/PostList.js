@@ -1,20 +1,5 @@
 import React, { Component } from 'react'
 import axios from 'axios';
-// const PostList = () => {
-//   return (
-//     <div>
-//         <h1>List of Posts</h1>
-//     </div>
-//   )
-// }
-
-// const componentDidMount =() =>{
-
-// }
-
-
-// export default PostList 
-
 
 class PostList extends Component {
   constructor(props) {
